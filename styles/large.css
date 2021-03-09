@@ -1,0 +1,57 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  flex: row wrap;
+  margin-top: 200px;
+  max-width: 990px;
+  max-height: 510px;
+}
+
+.images {
+  padding: 70px 100px 75px 0;
+  background-image: url('../images/bg-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: -730px -400px;
+  background-size: 250%;
+}
+
+.image__person {
+  max-height: 400px;
+  height: 110%;
+  margin-left: -100px;
+}
+
+.image__person-mobile {
+  display: none;
+}
+
+.image__box {
+  position: absolute;
+  display: block;
+  height: 20%;
+  margin-left: -94px;
+  margin-top: 155px;
+}
+
+.accordion {
+  padding-top: 30px;
+}
+
+.question__wrapper {
+  position: relative;
+  width: 380px;
+  padding: 10px 0;
+}
+
+.question {
+  padding-top: 10px;
+}
+
+.answer {
+  margin-top: 10px;
+}
+
+.arrow {
+  position: relative;
+  margin-top: -3px;
+}
